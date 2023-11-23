@@ -22,10 +22,10 @@ export default defineConfig({
       quality: 50,
       effort: 6.0,
     },
-    // avif: {
-    //   chromaSubsampling: "4:4:4",
-    //   effort: 9.0,
-    // },
+    avif: {
+      chromaSubsampling: "4:4:4",
+      effort: 9.0,
+    },
     gif: {
       effort: 10.0,
     },
